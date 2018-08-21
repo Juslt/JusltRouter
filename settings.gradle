@@ -1,0 +1,9 @@
+include ':app', ':timer-list', ':common', ':timer-timer'
+include ':kolib:ko'
+include ':router-annotation'
+include ':router-api'
+include ':router-compiler'
+
+project(':router-annotation').projectDir = new File(settingsDir, '../router/router-annotation')
+project(':router-api').projectDir = new File(settingsDir, '../router/router-api')
+project(':router-compiler').projectDir = new File(settingsDir, '../router/router-compiler')

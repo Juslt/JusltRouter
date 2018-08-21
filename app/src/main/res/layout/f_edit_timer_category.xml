@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_timer_name"
+        android:hint="@string/timer_name"
+        android:textSize="@dimen/text_normal"
+        android:textColor="@color/text_normal"
+        android:padding="@dimen/ko_padding_large"
+        android:background="@drawable/bg_corner_bg_public2_4dp"
+        android:layout_margin="@dimen/ko_margin_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_interval"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/ko_margin_large"
+            android:layout_marginRight="@dimen/ko_margin_large"
+            android:background="@drawable/bg_corner_bg_public2_4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_interval_prepare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@color/bg_divider"
+                android:layout_marginLeft="@dimen/ko_margin_large"
+                android:layout_marginRight="@dimen/ko_margin_large"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_interval_training"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@color/bg_divider"
+                android:layout_marginLeft="@dimen/ko_margin_large"
+                android:layout_marginRight="@dimen/ko_margin_large"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_interval_rest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@color/bg_divider"
+                android:layout_marginLeft="@dimen/ko_margin_large"
+                android:layout_marginRight="@dimen/ko_margin_large"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_interval_repeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/ko_margin_large"
+            android:layout_marginLeft="@dimen/ko_margin_large"
+            android:layout_marginRight="@dimen/ko_margin_large"
+            android:background="@drawable/bg_corner_bg_public2_4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_interval_sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_multi"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_opt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_content"
+            android:layout_marginRight="@dimen/ko_margin_large"
+            android:background="@drawable/bg_corner_bg_public2_4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_simple"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/ko_margin_large"
+        android:layout_marginRight="@dimen/ko_margin_large"
+        android:background="@drawable/bg_corner_bg_public2_4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <me.cq.kool.ui.widget.KVView
+            android:id="@+id/kv_simple_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@color/bg_divider"
+            android:layout_marginLeft="@dimen/ko_margin_large"
+            android:layout_marginRight="@dimen/ko_margin_large"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <me.cq.kool.ui.widget.KVView
+            android:id="@+id/kv_simple_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

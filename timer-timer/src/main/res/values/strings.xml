@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat_times">循环数</string>
+    <string name="left_duration">剩余时间</string>
+    <string name="group_count">组数</string>
+</resources>

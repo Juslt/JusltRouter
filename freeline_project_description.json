@@ -1,0 +1,108 @@
+{
+    "project_type": "gradle",
+    "android_gradle_plugin_version": "3.1.3",
+    "freeline_gradle_plugin_version": "0.8.8",
+    "java_home": "D:\\dev\\java\\jdk8",
+    "freeline_cache_dir": "D:\\dev\\ourprj\\Timer\\android",
+    "auto_dependency": true,
+    "product_flavor": "",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "root_dir": "D:\\dev\\ourprj\\Timer\\android",
+    "main_project_name": "app",
+    "main_project_dir": "app",
+    "build_directory": "D:\\dev\\ourprj\\Timer\\android\\app\\build",
+    "build_cache_dir": "D:\\dev\\ourprj\\Timer\\android\\app\\build\\freeline",
+    "build_tools_version": "27.0.3",
+    "sdk_directory": "D:\\dev\\android\\sdk",
+    "build_tools_directory": "D:\\dev\\android\\sdk\\build-tools\\27.0.3",
+    "compile_sdk_version": "android-27",
+    "compile_sdk_directory": "D:\\dev\\android\\sdk\\platforms\\android-27",
+    "package": "com.gx.timer",
+    "debug_package": "com.gx.timer",
+    "main_manifest_path": "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\AndroidManifest.xml",
+    "launcher": "me.cq.timer.list.TimerListActivity",
+    "apk_path": "D:\\dev\\ourprj\\Timer\\android\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+    "extra_dep_res_paths": [
+        
+    ],
+    "exclude_dep_res_paths": [
+        
+    ],
+    "main_r_path": "D:\\dev\\ourprj\\Timer\\android\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "use_jdk8": true,
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "use_system_gradle": false,
+    "check_sources_md5": [
+        
+    ],
+    "main_src_directory": [
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\java",
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\java"
+    ],
+    "main_res_directory": [
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\res",
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\res"
+    ],
+    "main_assets_directory": [
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\assets",
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\assets"
+    ],
+    "main_jni_directory": [
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\jni",
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\jni"
+    ],
+    "main_jniLibs_directory": [
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\jniLibs",
+        "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\jniLibs"
+    ],
+    "project_source_sets": {
+        "app": {
+            "main_src_directory": [
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\java",
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\res",
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\assets",
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\jni",
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\debug\\jniLibs",
+                "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "D:\\dev\\ourprj\\Timer\\android\\app\\src\\main\\AndroidManifest.xml"
+        }
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "D:\\dev\\ourprj\\Timer\\android\\app"
+        }
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "databinding": [
+        
+    ],
+    "databinding_modules": [
+        
+    ]
+}

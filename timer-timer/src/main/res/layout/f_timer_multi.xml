@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<me.cq.kool.ui.widget.WindowInsetsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:paddingTop="@dimen/ko_padding_middle"
+            android:paddingBottom="@dimen/ko_padding_middle"
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:src="@mipmap/ko_ic_back_black"
+                android:scaleType="center"
+                android:layout_centerVertical="true"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_time_title"
+                    android:text="00:00:00"
+                    android:textSize="24sp"
+                    android:textColor="@color/text_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_timer_name"
+                    android:text="name"
+                    android:textSize="@dimen/ko_text_12"
+                    android:textColor="@color/text_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <me.cq.timer.common.widget.PointProgressView2
+            android:id="@+id/progress_view"
+            android:layout_marginLeft="@dimen/ko_margin_large"
+            android:layout_marginRight="@dimen/ko_margin_large"
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:text="00:00:00"
+            android:textColor="@color/text_dark"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_reset"
+                android:src="@drawable/btn_reset"
+                android:padding="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_pre"
+                android:src="@drawable/btn_pre"
+                android:padding="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:src="@mipmap/timer_btn_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_next"
+                android:src="@drawable/btn_next"
+                android:padding="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_edit"
+                android:src="@drawable/btn_edit"
+                android:padding="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</me.cq.kool.ui.widget.WindowInsetsFrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<me.cq.kool.ui.widget.WindowInsetsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/ko_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <me.cq.kool.ui.widget.TitleBar
+            android:id="@+id/title_bar"
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_sub_timer_name"
+            android:hint="@string/timer_name"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@color/text_normal"
+            android:padding="@dimen/ko_padding_large"
+            android:background="@drawable/bg_corner_bg_public2_4dp"
+            android:layout_margin="@dimen/ko_margin_large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/ko_margin_large"
+            android:layout_marginRight="@dimen/ko_margin_large"
+            android:background="@drawable/bg_corner_bg_public2_4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_sub_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@color/bg_divider"
+                android:layout_marginLeft="@dimen/ko_margin_large"
+                android:layout_marginRight="@dimen/ko_margin_large"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <me.cq.kool.ui.widget.KVView
+                android:id="@+id/kv_sub_sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</me.cq.kool.ui.widget.WindowInsetsFrameLayout>

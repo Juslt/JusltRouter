@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--4e 30%-->
+    <!--b3 70%-->
+
+    <color name="ko_black_transparent_30per">#4e000000</color>
+
+    <color name="ko_black">@android:color/black</color>
+    <color name="ko_white">@android:color/white</color>
+    <color name="ko_transparent">@android:color/transparent</color>
+    <color name="ko_mask_white">#77ffffff</color>
+    <color name="ko_mask_black">#77000000</color>
+                 ko
+    <color name="ko_divider_black">#1f000000</color>
+</resources>

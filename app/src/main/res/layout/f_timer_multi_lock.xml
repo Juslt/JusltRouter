@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<me.cq.kool.ui.widget.WindowInsetsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient_color_primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:text="title"
+            android:textSize="20sp"
+            android:textColor="@color/ko_white"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="left"
+            android:padding="@dimen/ko_padding_huge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:text="next"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@color/ko_white"
+            android:layout_gravity="left"
+            android:paddingLeft="@dimen/ko_padding_huge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:id="@+id/fl_timer"
+                android:layout_width="240dp"
+                android:layout_height="240dp">
+
+                <com.gx.timer.widget.CircleTimerView
+                    android:id="@+id/v_circle_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.gx.timer.widget.CircleTimerSegmentView
+                    android:id="@+id/v_circle_time_segment"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:text="00:00:00"
+                    android:textColor="@color/ko_white"
+                    android:textSize="48sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:src="@mipmap/arrow_right_big"
+                android:layout_marginTop="48dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+</me.cq.kool.ui.widget.WindowInsetsFrameLayout>

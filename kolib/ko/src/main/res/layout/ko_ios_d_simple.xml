@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="280dp"
+    android:background="@drawable/ko_shape_corner_white_10dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="title"
+        android:gravity="center"
+        android:textSize="@dimen/ko_text_16"
+        android:textColor="@color/ko_black"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <ImageView
+        android:id="@+id/iv_divider_1"
+        android:src="@color/ko_divider_black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:textSize="@dimen/ko_text_14"
+        android:textColor="@color/ko_black"
+        android:padding="@dimen/ko_padding_large"
+        android:text="content"
+        android:lineSpacingMultiplier="1.5"
+        android:gravity="center"
+        android:minWidth="280dp"
+        android:minHeight="120dp"
+        android:maxHeight="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_divider_2"
+        android:src="@color/ko_divider_black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:text="left"
+            android:textSize="@dimen/ko_text_13"
+            android:textColor="@color/ko_black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_divider_3"
+            android:src="@color/ko_divider_black"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:text="right"
+            android:textSize="@dimen/ko_text_13"
+            android:textColor="@color/ko_black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>

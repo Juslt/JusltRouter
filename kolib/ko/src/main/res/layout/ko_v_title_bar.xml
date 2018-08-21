@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <ImageView
+        android:id="@+id/iv_title_bar_close"
+        android:src="@mipmap/ko_ic_back_black"
+        android:scaleType="center"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize" />
+
+    <TextView
+        android:id="@+id/tv_title_bar_title"
+        android:text="title"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize" />
+
+    <FrameLayout
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/iv_title_bar_right"
+            android:src="@mipmap/ko_ic_back_black"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize" />
+
+        <TextView
+            android:id="@+id/tv_title_bar_right"
+            android:text="right"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_title_bar_divider"
+        android:background="#f5f5f5"
+        android:visibility="invisible"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</merge>

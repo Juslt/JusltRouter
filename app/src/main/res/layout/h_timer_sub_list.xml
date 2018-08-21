@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:src="@mipmap/list_ic_delete"
+        android:scaleType="centerInside"
+        android:paddingLeft="@dimen/ko_padding_large"
+        android:paddingRight="@dimen/ko_padding_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_margin="@dimen/ko_margin_middle"
+        android:elevation="1dp"
+        android:background="@color/ko_white"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="@dimen/ko_padding_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_play"
+                    android:src="@mipmap/list_ic_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/ll_info"
+                    android:layout_gravity="right"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/ko_margin_large"
+                    android:gravity="right|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:text="计时器名称"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:text="00:00:00"
+                        android:textSize="29sp"
+                        android:textColor="@color/text_normal"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pb"
+                android:max="100"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/iv_edit"
+        android:src="@mipmap/list_ic_edit"
+        android:scaleType="centerInside"
+        android:paddingLeft="@dimen/ko_padding_large"
+        android:paddingRight="@dimen/ko_padding_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_move"
+        android:src="@mipmap/list_ic_move"
+        android:scaleType="centerInside"
+        android:paddingLeft="@dimen/ko_padding_large"
+        android:paddingRight="@dimen/ko_padding_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+

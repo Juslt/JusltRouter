@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="new_timer">新计时器</string>
+    <string name="edit_timer">编辑计时器</string>
+    <string name="timer_name">计时器名称</string>
+    <string name="time">时间</string>
+    <string name="tone">提示音</string>
+    <string name="simple">简单</string>
+    <string name="multi">多项</string>
+    <string name="interval">间歇</string>
+    <string name="ready">准备</string>
+    <string name="training">训练</string>
+    <string name="rest">休息</string>
+    <string name="repeat_time">循环数</string>
+    <string name="sub_timer">副计时器</string>
+    <string name="start">开始</string>
+    <string name="all">全部</string>
+    <string name="fill_timer_name_please">请填写计时器名称</string>
+    <string name="timer_seconds_should_not_be_0">计时器时间不能为0</string>
+    <string name="timer_create_fail_retry_please">计时器添加失败，请重试</string>
+    <string name="pause">暂停</string>
+    <string name="cancel">取消</string>
+    <string name="submit">确定</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="add_sub_timer">添加副计时器</string>
+    <string name="timer_must_larger_than_0">时间必须大于0秒</string>
+    <string name="delete">删除</string>
+    <string name="delete_the_sub_timer">确定删除当前副计时器？</string>
+    <string name="sub_timer_quantity_can_not_be_0">副计时器个数不能为0</string>
+    <string name="training_time_can_be_0">训练时间不能为0</string>
+    <string name="complete">完成</string>
+    <string name="modify_success">修改成功</string>
+</resources>

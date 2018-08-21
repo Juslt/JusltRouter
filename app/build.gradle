@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'com.antfortune.freeline'
+android {
+    signingConfigs {
+        release {
+            keyAlias 'gx'
+            keyPassword '100507'
+            storeFile file('../gx.jks')
+            storePassword '100507'
+        }
+    }
+    compileSdkVersion 27
+    defaultConfig {
+
+        applicationId "com.gx.timer"
+        minSdkVersion 18
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                // 每个使用Router的module都要配置该参数
+                arguments = ["moduleName": project.name]
+            }
+        }
+        kapt {
+            generateStubs = true
+        }
+    }
+    buildTypes {
+//        debug {
+//            signingConfig signingConfigs.release
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':timer-list')
+    implementation project(':common')
+    kapt project(':router-compiler')
+    implementation project(':timer-timer')
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ko_text_10">10sp</dimen>
+    <dimen name="ko_text_12">12sp</dimen>
+    <dimen name="ko_text_13">13sp</dimen>
+    <dimen name="ko_text_14">14sp</dimen>
+    <dimen name="ko_text_16">16sp</dimen>
+    <dimen name="ko_text_20">20sp</dimen>
+
+
+    <dimen name="ko_padding_small_">2dp</dimen>
+    <dimen name="ko_padding_small">4dp</dimen>
+    <dimen name="ko_padding_middle">8dp</dimen>
+    <dimen name="ko_padding_large">12dp</dimen>
+    <dimen name="ko_padding_huge">16dp</dimen>
+
+    <dimen name="ko_margin_small">4dp</dimen>
+    <dimen name="ko_margin_middle">8dp</dimen>
+    <dimen name="ko_margin_large">12dp</dimen>
+    <dimen name="ko_margin_huge">16dp</dimen>
+</resources>

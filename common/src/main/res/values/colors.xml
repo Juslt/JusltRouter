@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB464</color>
+    <color name="colorPrimaryDark">#FF8C64</color>
+    <color name="colorPrimaryDark_30_per">#4eFF8C64</color>
+    <color name="colorAccent">#FF8C64</color>
+
+
+    <color name="bg_public">#F0F0F5</color>
+    <color name="bg_public_2">#F0F0F0</color>
+    <color name="bg_divider">#C8C8C8</color>
+
+    <color name="text_dark">#282828</color>
+    <color name="text_normal">#3c3c3c</color>
+    <color name="text_normal_30_per">#4e3c3c3c</color>
+</resources>
